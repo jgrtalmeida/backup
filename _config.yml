@@ -1,0 +1,41 @@
+# Site Settings
+title: Insurgencia 2.0
+email: insurgencia2punto0@gmail.com
+description: Some text about your blog.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.rossener.com" # the base hostname & protocol for your site
+
+
+# User Settings
+username: Insurgencia 2.0
+user_description: Some text about you.
+disqus_username: disqus_username
+
+# Social Media
+# Remove the item if you don't need it
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# Plugins
+gems:
+  - jemoji
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Inicio
+    url: /
+  - title: Sobre
+    url: /sobre/
+  - title: Contacto
+    url: /contacto/
+  - title: Galeria
+    url: /galeria/
+  - title: Tutorial
+    url: /tutorial/
+
+# Exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
